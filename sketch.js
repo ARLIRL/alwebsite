@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(0);
 
   for(i=asteroids.length-1; i>=0; i--){
     asteroids[i].showAsteroid();
