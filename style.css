@@ -1,7 +1,55 @@
 html, body {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background: linear-gradient(rgb(250, 123, 123),rgb(251, 198, 124), rgb(248, 250, 129), rgb(146, 251, 119),rgb(160, 194, 221),plum);
+  width: 800px;
 }
 canvas {
   display: block;
+  margin: 20px;
+}
+
+h1{
+  background-color: plum;
+  text-align: center;
+  color:white;
+}
+
+.another_header{
+  color: blueviolet;
+}
+
+.test_div{
+  background-color: white;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
+  display:flex;
+}
+
+#blurry_image{
+  filter: blur(1px);
+  opacity: .8
+}
+
+a{
+  text-align: center;
+  background-color: plum;
+  color:blueviolet;
+}
+
+ol{
+  background-color: plum;
+  color: white;
+  text-align: center;
+
+}
+
+p{
+  text-align: center;
+  background-color: plum;
+  width: 400px;
+  height: auto;
 }
